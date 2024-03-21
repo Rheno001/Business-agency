@@ -107,7 +107,9 @@ body{
     color: var(--black-coral);
     font-size: 1.6rem;
     line-height: 1.7;
-    height: 300vh;
+}
+body.nav-active {
+    overflow: hidden;
 }
 ::-webkit-scrollbar{width:10px}
 ::-webkit-scrollbar-track { background-color: hsl(0, 0%, 98%);}
@@ -243,5 +245,5 @@ body{
 }
 .overlay.active{
     pointer-events: all;
-    opacity: 0.8;
+    opacity: 0.9;
 }
